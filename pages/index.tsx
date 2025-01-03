@@ -23,7 +23,7 @@ const BirthdayPage: React.FC = () => {
                 </header>
 
                 <div className={styles.content}>
-                    <div className={styles.gallery}>
+                    <div clagit ssName={styles.gallery}>
                         <img src="/photo1.jpg" alt="Tobi's celebration" />
                         <img src="/photo2.jpg" alt="Tobi's celebration" />
                         <img src="/photo3.jpg" alt="Tobi's celebration" />
