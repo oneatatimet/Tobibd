@@ -23,7 +23,7 @@ const BirthdayPage: React.FC = () => {
                 <div className={styles.content}>
                     <div data-clagit="true" data-ss-name={styles.gallery}>
                         <div className={styles.gallery}>
-                            <img src="/photo1.jpg" alt="Tobi's celebration" />
+                            <img src="https://t3ekfrqhoc8vlytq.public.blob.vercel-storage.com/IMG_1501-v30c9qzGzRBfytkofpUfa5rwb9jZDZ.jpeg.jpg" alt="Tobi's celebration" />
                             <img src="/photo2.jpg" alt="Tobi's celebration" />
                             <img src="/photo3.jpg" alt="Tobi's celebration" />
                             <img src="/photo4.jpg" alt="Tobi's celebration" />
