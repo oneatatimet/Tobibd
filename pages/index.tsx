@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import styles from '../styles/BirthdayStyles.module.css';
 
+
 const BirthdayPage: React.FC = () => {
     const [currentPrompt, setCurrentPrompt] = useState<number>(1);
     const [showPage, setShowPage] = useState<boolean>(false);
