@@ -65,7 +65,7 @@ const BirthdayPage: React.FC = () => {
                
                 <header className={styles.header2}>
                     <h1>๋࣭ ⭑ ♑︎ 𓃵I looked up your birth chart 😎 ๋࣭ ⭑ ♑︎ 𓃵 </h1>
-                    <h1>๋࣭ here is your chart 👇 𓃵 </h1>
+                    <p>๋࣭ here is your chart 👇 𓃵 </p>
                 </header>
                 <div data-clagit="true" data-ss-name={styles.gallery}>
                         <div className={styles.gallery}>
@@ -118,8 +118,8 @@ Ambition, communication, balance, and inner exploration.
                 
                 
 <header className={styles.header1}>
-                    <h1>🃜🃚🃖🃁🂭🂺 I Read your Taro Cards 😁 🔮 🃜🃚🃖🃁🂭🂺</h1>
-                    <h2>  I shuffled the cards and took a picture 👇</h2>
+                    <h1>🃜🃚I Read your Taro Cards 😁 🔮 🃜🃚</h1>
+                    <p>  I shuffled the cards and took a picture 👇</p>
                 </header>
                         <div className={styles.gallery}>
                         <img src="https://t3ekfrqhoc8vlytq.public.blob.vercel-storage.com/IMG_1501-v30c9qzGzRBfytkofpUfa5rwb9jZDZ.jpeg" alt="Tobi's celebration" />
@@ -163,7 +163,7 @@ Ambition, communication, balance, and inner exploration.
                 <div>
                     <p>Are you good with cuddles and can pull off a sexy look with glasses?🤓☝️</p>
                     <button onClick={handleNextPrompt}>Yes</button>
-                    <button onClick={handleNextPrompt}></button>
+                    ৻(  •̀ ᗜ •́  ৻)
                     <button onClick={handleNextPrompt}>No</button>
                 </div>
             )}
@@ -171,7 +171,8 @@ Ambition, communication, balance, and inner exploration.
                 <div>
                     <p>Have you survived 40 wonderful years on earth?</p>
                     <button onClick={handleNextPrompt}>Yes</button>
-                    <button onClick={handleNextPrompt}></button>
+                    <b></b>
+                    ৻(  •̀ ᗜ •́  ৻)
                     <button onClick={handleNextPrompt}>No</button>
                 </div>
             )}
