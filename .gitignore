@@ -1,5 +1,2 @@
-# eslint cache
-.eslintcache
-/.next
-/node_modules
-node_modulesnode_modules/
+node_modules/
+.next/
