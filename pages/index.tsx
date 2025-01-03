@@ -34,7 +34,7 @@ const BirthdayPage: React.FC = () => {
                     
 
                     <div className={styles.message}>
-                    <p>Heyy Tobii</p>
+                    <p>Heyy Tobii check </p>
                         <p>
 
 Happy 40th! 🎉 Today’s all about celebrating you—the warm, kind, and downright awesome person who somehow manages to make everyone feel seen and supported. Whether it’s helping people grow at work, giving the best hugs, or just being your approachable, cuddly self, you’ve got this way of making life better for everyone around you.
