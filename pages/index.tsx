@@ -25,17 +25,26 @@ const BirthdayPage: React.FC = () => {
                 <div className={styles.content}>
                     <div className={styles.gallery}>
                         <img src="/photo1.jpg" alt="Tobi's celebration" />
-                        <img src="/photo2.jpg" alt="Memories with Tobi" />
-                        <img src="/photo3.jpg" alt="Birthday cake" />
-                        <img src="/photo4.jpg" alt="Family and friends" />
+                        <img src="/photo2.jpg" alt="Tobi's celebration" />
+                        <img src="/photo3.jpg" alt="Tobi's celebration" />
+                        <img src="/photo4.jpg" alt="Tobi's celebration" />
                     </div>
 
                     <div className={styles.message}>
-                        <p>Dear Tobi,</p>
-                        <p>Today, I celebrate you and the incredible 40 years of joy, love, and laughter you have brought into my life. You are truly one of a kind, and I feel so lucky to share this journey with you.</p>
+                    <p>Heyy Tobii</p>
+                        <p>
+
+Happy 40th! 🎉 Today’s all about celebrating you—the warm, kind, and downright awesome person who somehow manages to make everyone feel seen and supported. Whether it’s helping people grow at work, giving the best hugs, or just being your approachable, cuddly self, you’ve got this way of making life better for everyone around you.
+
+Now, since it’s your big 4-0, I’ve got a fun little mission for you. Ready? Your challenge is to conquer the mighty ghayn! Next time you’re in Arabic country, casually slip the word “gharyb” (it means “strange” in Arabic) into a conversation with a server. Imagine this: you raise an eyebrow, scan the menu, and say, “Hmm, this dish sounds kinda gharyb, don’t you think?” Whether they laugh or just look confused, it’s guaranteed to be a memorable moment. You’ll totally nail it!
+
+But seriously, how about starting something new this year? You’ve got all these ideas and so much talent—why not dive into an exciting engineering project for fun? And don’t forget to take some time to travel more. Go somewhere new, explore, and soak up what the world has to offer. You’ve done so much for everyone else—it’s time to do more of what makes you happy!
+
+Here’s to making your forties full of adventures, laughter, and moments that make life a little more fun (and maybe a little gharyb too). I can’t wait to see where this next chapter takes you—you’re gonna crush it!
+</p>
                         <p>Happy 40th Birthday!</p>
-                        <p>With all my love,</p>
-                        <p>Nada</p>
+                        <p>Big hugs and a loud ghhh,</p>
+                        <p>Nadia</p>
                     </div>
                 </div>
 
