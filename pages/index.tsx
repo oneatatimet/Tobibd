@@ -162,7 +162,8 @@ Ambition, communication, balance, and inner exploration.
             {currentPrompt === 1 && (
                 <div>
                     <p>Are you good with cuddles? </p>
-                    <p>can pull off a sexy look with glasses?  🤓😎👌</p>
+                    <p>can pull off a sexy look with glasses?  </p>
+                    <p>🤓😎👌</p>
                     <button onClick={handleNextPrompt}>Yes</button>
                     <b>    </b>
 
@@ -171,7 +172,7 @@ Ambition, communication, balance, and inner exploration.
             )}
             {currentPrompt === 2 && (
                 <div>
-                    <p>Survived 40 wonderful years on earth?</p>
+                    <p>Survived 40 wonderful years on earth???</p>
                    
                     <button onClick={handleNextPrompt}>Yes</button>
                     <b>    </b>
