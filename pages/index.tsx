@@ -146,9 +146,7 @@ Ambition, communication, balance, and inner exploration.
             </div>
                        
                     </div>
-                    <footer>
-                    <p>&copy; 2025 Tobi's Birthday Card by Nadia</p>
-                </footer>
+                    
                 </div>
 
                 
