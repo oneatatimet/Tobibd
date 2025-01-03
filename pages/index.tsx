@@ -161,9 +161,11 @@ Ambition, communication, balance, and inner exploration.
         <div className={styles.promptOverlay}>
             {currentPrompt === 1 && (
                 <div>
-                    <p>Are you good with cuddles and can pull off a sexy look with glasses?🤓☝️</p>
+                    <p>Are you good with cuddles? </p>
+                    <p>can you pull off a sexy look with glasses?🤓☝️</p>
                     <button onClick={handleNextPrompt}>Yes</button>
-                    ৻(  •̀ ᗜ •́  ৻)
+                    <b>    </b>
+
                     <button onClick={handleNextPrompt}>No</button>
                 </div>
             )}
@@ -171,8 +173,8 @@ Ambition, communication, balance, and inner exploration.
                 <div>
                     <p>Have you survived 40 wonderful years on earth?</p>
                     <button onClick={handleNextPrompt}>Yes</button>
-                    <b></b>
-                    ৻(  •̀ ᗜ •́  ৻)
+                    <b>    </b>
+                   
                     <button onClick={handleNextPrompt}>No</button>
                 </div>
             )}
