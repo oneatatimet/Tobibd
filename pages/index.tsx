@@ -4,6 +4,8 @@ import styles from '../styles/BirthdayStyles.module.css';
 const BirthdayPage: React.FC = () => {
     const [currentPrompt, setCurrentPrompt] = useState<number>(1);
     const [showPage, setShowPage] = useState<boolean>(false);
+    const [buttonValue, setButtonValue] = useState<string>('');
+    const [result, setResult] = useState<string>('');
 
     const handleNextPrompt = () => {
         if (currentPrompt < 3) {
@@ -13,55 +15,152 @@ const BirthdayPage: React.FC = () => {
         }
     };
 
+    const handleButtonClick = () => {
+        if (buttonValue !== 'correct') {
+            setResult('Wrong!, read it your self');
+        } else {
+            setResult('');
+        }
+    };
+
     if (showPage) {
         return (
-            <div>
-                <header>
+            <div >
+                <header className={styles.header1}>
                     <h1>Happy 40th Birthday, Tobi!</h1>
                 </header>
-
-                <div className={styles.content}>
-                <div data-clagit="true" data-ss-name={styles.gallery}>
                         <div className={styles.gallery}>
-                            <img src="https://t3ekfrqhoc8vlytq.public.blob.vercel-storage.com/IMG_1501-v30c9qzGzRBfytkofpUfa5rwb9jZDZ.jpeg" alt="Tobi's celebration" />
-                            <img src="https://via.placeholder.com/200" alt="Tobi's celebration" />
-                            <img src="https://via.placeholder.com/200" alt="Tobi's celebration" />
-                            <img src="https://via.placeholder.com/200" alt="Tobi's celebration" />
+                        <img src="https://t3ekfrqhoc8vlytq.public.blob.vercel-storage.com/IMG_0777-KKNYz3bKXQN5xGNUrE1hfLKJ8cdlTo.jpeg" alt="Tobi's celebration" />
+                            <img src="https://t3ekfrqhoc8vlytq.public.blob.vercel-storage.com/IMG_0805-OItmUzAJjCvLlrK6t699WYM2GFl8Ez.jpeg" alt="Tobi's celebration" />
+                            <img src="https://t3ekfrqhoc8vlytq.public.blob.vercel-storage.com/IMG_0779-VOFZhqUk0vTI6qW48ayX4gL0DEDVnU.jpeg" alt="Tobi's celebration" />
+
                         </div>
-                    </div>
+            
+                <div className={styles.content}>
+                
 
                     <div className={styles.message}>
-                        <p>Heyy Tobii check </p>
+
+                        <p>Heyy Tobii 🤗</p>
                         <p>
-                            Happy 40th! 🎉 Today’s all about celebrating you—the warm, kind, and downright awesome person who somehow manages to make everyone feel seen and supported. Whether it’s helping people grow at work, giving the best hugs, or just being your approachable, cuddly self, you’ve got this way of making life better for everyone around you.
+                            Happy 40th! 🎉 Today’s all about celebrating you—the warm, kind, and downright awesome person who somehow manages to make everyone feel seen and supported. Whether it’s helping people grow at work, giving the best hugs, or just being your approachable, cuddly self.
                         </p>
                         <p>
-                            Now, since it’s your big 4-0, I’ve got a fun little mission for you. Ready? Your challenge is to conquer the mighty ghayn! Next time you’re in Arabic country, casually slip the word “gharyb” (it means “strange” in Arabic) into a conversation with a server. Imagine this: you raise an eyebrow, scan the menu, and say, “Hmm, this dish sounds kinda gharyb, don’t you think?” Whether they laugh or just look confused, it’s guaranteed to be a memorable moment. You’ll totally nail it!
+                            Now, since it’s your big 4-0, I’ve got a fun little mission for you. Ready? Your challenge is to conquer the mighty ghayn!😏 Next time you’re in an Arabic country, casually slip the word “gharyb” (it means “strange” in Arabic) into a conversation with a server. Imagine this: you raise an eyebrow, scan the menu, and say, “Hmm, this dish sounds kinda gharyb, don’t you think?” Whether they laugh or just look confused, it’s guaranteed to be a memorable moment. You’ll totally nail it!😛
                         </p>
                         <p>
                             But seriously, how about starting something new this year? You’ve got all these ideas and so much talent—why not dive into an exciting engineering project for fun? And don’t forget to take some time to travel more. Go somewhere new, explore, and soak up what the world has to offer. You’ve done so much for everyone else—it’s time to do more of what makes you happy!
                         </p>
                         <p>
-                            aaaaaaaaHere’s to making your forties full of adventures, laughter, and moments that make life a little more fun (and maybe a little gharyb too). I can’t wait to see where this next chapter takes you—you’re gonna crush it! hhhhhhhhh
+                        🍻Here’s to making your forties full of adventures, laughter, and moments that make life a little more fun (and maybe a little gharyb too). I can’t wait to see where this next chapter takes you—you’re gonna crush it! 
                         </p>
-                        <p>Happy 40th Birthday!</p>
+                        <p>Happy 40th Birthday!🎉🥳</p>
                         <p>Big hugs and a loud ghhh,</p>
+                       <p>(づ ˘ ᵕ ˘͈ )づ</p> 
                         <p>Nadia</p>
                     </div>
-                </div>
 
-                <footer>
+                </div>
+                
+               
+                <header className={styles.header2}>
+                    <h1>๋࣭ ⭑ ♑︎ 𓃵I looked up your birth chart 😎 ๋࣭ ⭑ ♑︎ 𓃵 </h1>
+                </header>
+                <div data-clagit="true" data-ss-name={styles.gallery}>
+                        <div className={styles.gallery}>
+                            
+                            <img src="https://t3ekfrqhoc8vlytq.public.blob.vercel-storage.com/astro_2gw_tobias.66831.440529-JHoPDWUkpQBJsZXcIUmNrCSjF72oVj.png" alt="Tobi's celebration" />
+
+                        </div>
+                    </div>
+                <div className={styles.content}>
+               
+
+                    <div className={styles.message}>
+                        
+                        <p>
+                        Birth Chart Summary - January 3, 1983</p>
+<b>Personal and Life Overview</b>
+<p><b >Sun in Capricorn (1st House): </b></p>
+<p className={styles.em}>Practical, ambitious, and disciplined. Strong leadership qualities and a responsible nature.</p>
+
+<p><b>Moon in Virgo (9th House):</b> </p>
+<p>Emotionally thoughtful and analytical, with a deep connection to travel and higher learning.</p>
+<p><b>Ascendant in Sagittarius: </b></p>
+<p>Outwardly optimistic, adventurous, and curious. You come across as open-minded.
+</p>
+
+<p><b>Mercury in Capricorn:</b></p>
+<p>Clear and logical communication style, with a focus on practical solutions.</p>
+
+
+<p><b>Venus in Aquarius:</b></p>
+<p> Independent and open-minded in relationships, valuing freedom and individuality.</p>
+<p><b>Mars in Libra:</b></p>
+<p> Driven by fairness and diplomacy, especially in career and public life.</p>
+<p><b>North Node in Gemini:</b> </p>
+<p>Life purpose involves communication, adaptability, and forming partnerships.</p>
+
+<p><b>Key Themes:</b>
+Ambition, communication, balance, and inner exploration.
+</p>
+
+
+                    
+                       
+                      
+                    </div>
+
+                </div>
+           
+
+                
+                
+<header className={styles.header1}>
+                    <h1>I Read your Taro Cards 🔮</h1>
+                    <p>  Here are the results</p>
+                </header>
+                        <div className={styles.gallery}>
+                        <img src="https://t3ekfrqhoc8vlytq.public.blob.vercel-storage.com/IMG_1501-v30c9qzGzRBfytkofpUfa5rwb9jZDZ.jpeg" alt="Tobi's celebration" />
+                <img src="https://t3ekfrqhoc8vlytq.public.blob.vercel-storage.com/IMG_1507-bv48G6jPvgaQkru1wooBCtbcClnUU8.jpeg" alt="Tobi's celebration" />
+
+                        </div>
+                        <div className={styles.content}>
+                
+
+                    <div className={styles.message}>
+
+                        <p>Reading is locked ( ｡ •̀ ᴗ •́ ｡)</p>
+                        <div>
+                        <input
+                            type="enter password"
+                            value={buttonValue}
+                            onChange={(e) => setButtonValue(e.target.value)}
+                            placeholder="Enter Magic Word (•ᴗ•,, )"
+                        />
+                        <button onClick={handleButtonClick}>fly</button>
+                        {result && <p>{result}</p>}
+                    </div>
+                
+            </div>
+                       
+                    </div>
+                    <footer>
                     <p>&copy; 2025 Tobi's Birthday Page</p>
                 </footer>
-            </div>
+                </div>
+
+                
+                
         );
+        
     }
 
     return (
         <div className={styles.promptOverlay}>
             {currentPrompt === 1 && (
                 <div>
-                    <p>Are you good with cuddles and can pull off a sexy look with glasses?</p>
+                    <p>Are you good with cuddles and can pull off a sexy look with glasses?🤓☝️</p>
                     <button onClick={handleNextPrompt}>Yes</button>
                 </div>
             )}
@@ -73,7 +172,7 @@ const BirthdayPage: React.FC = () => {
             )}
             {currentPrompt === 3 && (
                 <div>
-                    <p>Welcome to Tobi's 40th Birthday Page!</p>
+                    <p>Thats really you! 🤗 Welcome to Tobi </p>
                     <button onClick={handleNextPrompt}>OK</button>
                 </div>
             )}

@@ -1,8 +1,24 @@
 
 
 .content {
-    padding: 20px;
+    padding: 100px;
 }
+
+.header1 {
+    font-family:  'handwriting', sans-serif; 
+    font-size: larger;
+    text-align: center;
+    padding: 100px;
+}
+
+.header2 {
+    font-family:  'handwriting', sans-serif; 
+    font-size: larger;
+    text-align: center;
+    padding: 50px;
+}
+
+
 
 .gallery {
     display: flex;
@@ -23,7 +39,7 @@
     font-size: 1.2em;
     line-height: 1.5;
     background: rgba(74, 144, 226, 0.2);
-    padding: 20px;
+    padding: 100px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
