@@ -17,7 +17,7 @@ const BirthdayPage: React.FC = () => {
 
     const handleButtonClick = () => {
         if (buttonValue !== 'correct') {
-            setResult('Wrong!, read it your self');
+            setResult('AWW Wrong answer! you will have to look it up your self 🤷‍♀️');
         } else {
             setResult('');
         }
@@ -43,16 +43,16 @@ const BirthdayPage: React.FC = () => {
 
                         <p>Heyy Tobii 🤗</p>
                         <p>
-                            Happy 40th! 🎉 Today’s all about celebrating you—the warm, kind, and downright awesome person who somehow manages to make everyone feel seen and supported. Whether it’s helping people grow at work, giving the best hugs, or just being your approachable, cuddly self.
+                            Happy 40th! 🎉 Today’s all about celebrating you—the warm, kind, and downright awesome person who somehow manages to make everyone feel seen and supported. Whether it’s helping people grow at work, giving the best hugs, or just being your approachable, cuddly self (づ ˘ ᵕ ˘)づ
                         </p>
                         <p>
-                            Now, since it’s your big 4-0, I’ve got a fun little mission for you. Ready? Your challenge is to conquer the mighty ghayn!😏 Next time you’re in an Arabic country, casually slip the word “gharyb” (it means “strange” in Arabic) into a conversation with a server. Imagine this: you raise an eyebrow, scan the menu, and say, “Hmm, this dish sounds kinda gharyb, don’t you think?” Whether they laugh or just look confused, it’s guaranteed to be a memorable moment. You’ll totally nail it!😛
+                            Now, since it’s your big 4-0, I’ve got a fun mission for you. Ready? Your challenge is to conquer the mighty ghayn!😏 Next time you’re in an Arabic country, casually slip the word “gharyb” (it means “strange” in Arabic) into a conversation with a server. Imagine this: you raise an eyebrow, scan the menu, and say, “Hmm, this dish sounds kinda gharyb, don’t you think?” Whether they laugh or just look confused, it’s guaranteed to be a memorable moment. You’ll totally nail it!😛
                         </p>
                         <p>
                             But seriously, how about starting something new this year? You’ve got all these ideas and so much talent—why not dive into an exciting engineering project for fun? And don’t forget to take some time to travel more. Go somewhere new, explore, and soak up what the world has to offer. You’ve done so much for everyone else—it’s time to do more of what makes you happy!
                         </p>
                         <p>
-                        🍻Here’s to making your forties full of adventures, laughter, and moments that make life a little more fun (and maybe a little gharyb too). I can’t wait to see where this next chapter takes you—you’re gonna crush it! 
+                        🍻Here’s to making your forties full of adventures, laughter, and moments that make life a little more fun (and maybe a little gharyb too) 🍻. I can’t wait to see where this next chapter takes you—you’re gonna crush it! 
                         </p>
                         <p>Happy 40th Birthday!🎉🥳</p>
                         <p>Big hugs and a loud ghhh,</p>
@@ -65,6 +65,7 @@ const BirthdayPage: React.FC = () => {
                
                 <header className={styles.header2}>
                     <h1>๋࣭ ⭑ ♑︎ 𓃵I looked up your birth chart 😎 ๋࣭ ⭑ ♑︎ 𓃵 </h1>
+                    <h1>๋࣭ here is your chart 👇 𓃵 </h1>
                 </header>
                 <div data-clagit="true" data-ss-name={styles.gallery}>
                         <div className={styles.gallery}>
@@ -117,8 +118,8 @@ Ambition, communication, balance, and inner exploration.
                 
                 
 <header className={styles.header1}>
-                    <h1>I Read your Taro Cards 🔮</h1>
-                    <p>  Here are the results</p>
+                    <h1>🃜🃚🃖🃁🂭🂺 I Read your Taro Cards 😁 🔮 🃜🃚🃖🃁🂭🂺</h1>
+                    <h2>  I shuffled the cards and took a picture 👇</h2>
                 </header>
                         <div className={styles.gallery}>
                         <img src="https://t3ekfrqhoc8vlytq.public.blob.vercel-storage.com/IMG_1501-v30c9qzGzRBfytkofpUfa5rwb9jZDZ.jpeg" alt="Tobi's celebration" />
@@ -130,7 +131,7 @@ Ambition, communication, balance, and inner exploration.
 
                     <div className={styles.message}>
 
-                        <p>Reading is locked ( ｡ •̀ ᴗ •́ ｡)</p>
+                        <p>Reading is locked ( ｡ •̀ ᴗ •́ ｡) enter magic word to unlock</p>
                         <div>
                         <input
                             type="enter password"
@@ -146,7 +147,7 @@ Ambition, communication, balance, and inner exploration.
                        
                     </div>
                     <footer>
-                    <p>&copy; 2025 Tobi's Birthday Page</p>
+                    <p>&copy; 2025 Tobi's Birthday Card by Nadia</p>
                 </footer>
                 </div>
 
@@ -162,18 +163,22 @@ Ambition, communication, balance, and inner exploration.
                 <div>
                     <p>Are you good with cuddles and can pull off a sexy look with glasses?🤓☝️</p>
                     <button onClick={handleNextPrompt}>Yes</button>
+                    <button onClick={handleNextPrompt}></button>
+                    <button onClick={handleNextPrompt}>No</button>
                 </div>
             )}
             {currentPrompt === 2 && (
                 <div>
                     <p>Have you survived 40 wonderful years on earth?</p>
                     <button onClick={handleNextPrompt}>Yes</button>
+                    <button onClick={handleNextPrompt}></button>
+                    <button onClick={handleNextPrompt}>No</button>
                 </div>
             )}
             {currentPrompt === 3 && (
                 <div>
                     <p>Thats really you! 🤗 Welcome to Tobi </p>
-                    <button onClick={handleNextPrompt}>OK</button>
+                    <button onClick={handleNextPrompt}>get in</button>
                 </div>
             )}
         </div>
